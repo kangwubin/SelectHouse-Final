@@ -1,0 +1,308 @@
+/*header*/
+img{border:none;}
+.header {min-width:1200px;}
+.header 
+		{height:161px;background:url('resources/images/index_header-bg.jpg');text-align:center;}
+/*main*/
+.main {
+	width: 1200px;
+	height: 600px;
+	background: #ffffff;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.main .top{
+	padding: 30px;
+	padding-bottom: 10px;
+}
+.main .top .left { 
+	color: #e34156;
+}
+.main .top .center {
+	    font-size: 16px;
+	     font-weight: 700;
+	     margin-right: 40px;
+	     margin-bottom: 10px;
+	     float: right;
+	     font-family: '微软雅黑 bold', '微软雅黑';
+}
+.main .top .right {
+	    font-size: 16px;
+	     font-weight: 700;
+	     margin-right:20px ;
+	     margin-bottom: 10px;
+	     float: right;
+	     font-family: '微软雅黑 bold', '微软雅黑';
+}
+[onclick] {
+	cursor: pointer;
+}
+.main .top .clear {
+	    clear: both;
+}
+/*line水平线*/
+.main .line {
+	    border-bottom: 1px solid #DDDDDD;
+}
+/*表格*/
+.main .down {
+	width: 505px;
+    margin: 0px auto;
+    margin-bottom: 40px;
+    margin-top: 100px;
+    margin-left: 280px;
+    padding: 20px;
+}
+table {
+	display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+.name {
+	    font-size: 16px;
+	    color: #333333;
+	    text-align: right;
+}
+tr {
+	display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+td {
+	   display: table-cell;
+    vertical-align: inherit;
+}
+input[type=password] {
+    outline: none;
+    font-family: '微软雅黑 Regular', '微软雅黑';
+    color: #444444;
+    height: 32px;
+    width: 100%;
+}
+/*修改按钮*/
+#button {
+	
+  display: inline-block;
+    border: none;
+    width: 300px;
+    line-height: 40px;
+    text-align: center;
+    background: #E34156;
+    color: #ffffff;
+    font-size: 16px;
+}
+//footer
+
+.w2017 {
+	   width: 1200px;
+        font-family: '微软雅黑 Regular', '微软雅黑';
+    }
+    .w2017 ul, .w2017 li,.w2017 dl,.w2017 dt,.w2017 dd{ margin:0;}
+     .w2017 a{
+         text-decoration:none;
+     }
+        .w2017 a:hover {
+            font-family: '微软雅黑 Regular', '微软雅黑';
+            text-decoration: underline;
+        }
+
+        .w2017 .footer p {
+            margin: 0;
+            padding: 0;
+            line-height: 30px;
+            text-align: left;
+        }
+
+        .w2017 .footer {
+            width: 1200px;
+            font-size: 14px;
+            font-family: 'Microsoft YaHei',Arial,Verdana,Helvetica,sans-serif;
+            height: 200px;
+            background: #333647;
+            background: -webkit-linear-gradient(top, #333647, #242736);
+            background: -ms-linear-gradient(top, #333647, #242736);
+            background: -o-linear-gradient(top, #333647, #242736);
+            background: -moz-linear-gradient(top, #333647, #242736);
+        }
+
+            .w2017 .footer .section {
+                padding-top: 45px;
+                width: 1200px;
+                margin: 0 auto;
+                position: relative;
+            }
+
+                .w2017 .footer .section .copyright {
+                    float: left;
+                    position: relative;
+                }
+
+                    .w2017 .footer .section .copyright div {
+                        float: left;
+                        height: 120px;
+                    }
+
+                    .w2017 .footer .section .copyright .mark1 {
+                        display: block;
+                        float: left;
+                        text-align: center;
+                        padding-top: 20px;
+                    }
+
+                    .w2017 .footer .section .copyright .mark2 {
+                        display: block;
+                        float: left;
+                        text-align: center;
+                        padding-top: 30px;
+                    }
+
+                    .w2017 .footer .section .copyright .mark img {
+                        vertical-align: middle;
+                    }
+
+                    .w2017 .footer .section .copyright .link2017 {
+                        padding: 0px 40px 0px 40px;
+                        float: left;
+                    }
+
+                    .w2017 .footer .section .copyright em {
+                        margin-left: 10px;
+               
+                    }
+
+                    .w2017 .footer .section .copyright p {
+                        color: #f2f2f2;
+                   
+                    }
+
+                        .w2017 .footer .section .copyright p a {
+                            color: #f2f2f2;
+                            line-height: 2;
+                            font-family: '微软雅黑 Regular', '微软雅黑';
+                        }
+                         .w2017 .footer .section ul li a{
+                             text-decoration: none;
+                             font-family: '微软雅黑 Regular', '微软雅黑';
+                         }
+
+                            .w2017 .footer .section .copyright p a.website {
+                                text-decoration: none;
+                            }
+
+                                .w2017 .footer .section .copyright p a.website:hover {
+                                    text-decoration: underline;
+                                }
+
+                        .w2017 .footer .section .copyright p.flnum {
+                            text-indent: 3em;
+                            position: absolute;
+                        }
+
+                            .w2017 .footer .section .copyright p.flnum i {
+                                width: 18px;
+                                height: 20px;
+                                background: url(../images/emblem.png) no-repeat;
+                            }
+
+                .w2017 .footer .section ul {
+                    float: right;
+                    position: absolute;
+                    right: 0px;
+                    list-style: none;
+                }
+
+                    .w2017 .footer .section ul:before, .w2017 .footer .section ul:after {
+                        clear: both;
+                        content: '';
+                        display: table;
+                    }
+                    .w2017 .footer .section ul li.qr1 {
+                        float: left;
+                        width: 80px;
+                        padding-top: 82px;
+                        margin-right: 10px;
+                        background: url(../img/code1.png) no-repeat;
+                        margin-top:10px;
+                        
+                    }
+
+                    .w2017 .footer .section ul li.qr2 {
+                        float: left;
+                        width: 82px;
+                        height: 41px;
+                        margin-right: 16px;
+                        margin-top: 30px;
+                        background: url(../img/goverror.png) no-repeat;
+                        background-size: 100% 100%;
+                    }
+
+                    .w2017 .footer .section ul li.qr3 {
+                        float: left;
+                        width: 90px;
+                        margin:0;
+                        margin-right: 16px;
+                        margin-top: 10px;
+                    }
+
+                    .w2017 .footer .section ul li.qr4 {
+                        float: left;
+                        width: 80px;
+                        padding-top: 82px;
+                        margin-right: 16px;
+                        background: url(../img/code4.png) no-repeat;
+                    }
+
+                    .w2017 .footer .section ul li p {
+                        color: #fff;
+                        font-size: 14px;
+                        text-align: center;
+                    }
+
+                        .w2017 .footer .section ul li p i {
+                            width: 66px;
+                            height: 18px;
+                            display: block;
+                            margin: 0 auto;
+                            line-height: 18px;
+                            font-style: normal;
+                            border-radius: 50px;
+                            -webkit-border-radius: 50px;
+                            background-color: rgba(29, 31, 42, 0.8);
+                        }
+
+        .w2017 .sel {
+            margin: 0px;
+            padding: 0px;
+            height: 26px;
+            line-height: 26px;
+            width: 237px;
+            font-family: "宋体";
+            border: solid 1px #666;
+            padding-bottom: 4px;
+        }
+
+        .w2017 .FirdUrl {
+            padding: 4px;
+            overflow: hidden;
+            text-align: center;
+            width: 1201px;
+            margin: 0 auto;
+        }
+
+        .w2017 img {
+            vertical-align: middle;
+        }
+
+        .w2017 .mark3 {
+            position: absolute;
+            left: 875px;
+            top: 75px;
+            /*width: 84px;*/
+            font-size: 12px;
+            color: #ffffff;
+            text-align: center;
+        }
+         .w2017  .mark2 img {width:110px;height:55px;}
+         .w2017  .mark3 img {width:110px;height:55px;}
+

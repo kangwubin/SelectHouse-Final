@@ -1,0 +1,11 @@
+﻿body{
+    margin:0px;
+    padding:0px;
+}
+img{border:none;}
+/*头部样式*/
+.header {min-width:1200px;}
+    .header00{height:161px; background:url('../images/topimg00-bg.jpg');text-align:center;}
+    .header00 img{margin:0px auto;}
+    .header07{height:161px; background:url('../images/topimg07-bg.jpg');text-align:center;}
+    .header07 img{margin:0px auto;}
